@@ -1,0 +1,306 @@
+*{ 
+    box-sizing: border-box; 
+    padding: 0; 
+    margin: 0; 
+} 
+body{ 
+    background-color: #FAF8F5; 
+} 
+.home-page{ 
+    display: flex; 
+    flex-direction: column; 
+    width: 100%; 
+    height: 200vh; 
+    min-height: fit-content; 
+} 
+.home-page-Top{ 
+    width: 100%; 
+    height: 60%; 
+    min-height: 400px; 
+    margin-bottom: 50px; 
+} 
+.home-page-nav{ 
+    width: 100%; 
+    height: 80px; 
+} 
+.home-page-nav nav{ 
+    display: flex; 
+    justify-content: space-between; 
+    height: 100%; 
+    width: 100%; 
+} 
+nav ul{ 
+    display: flex; 
+    justify-content: space-evenly; 
+    height: 100%; 
+    width: 100%; 
+    align-items: center; 
+} 
+nav ul a{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-decoration: none; 
+    font-size: 20px; 
+    font-family: "Poetsen One", sans-serif; 
+    font-weight: bold; 
+    cursor: pointer; 
+    color: #1c1c1a; 
+} 
+nav ul a:last-child{ 
+    margin-right: 10px; 
+} 
+nav ul a img{ 
+    margin: 0 5px; 
+} 
+.left-nav{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100%; 
+    width: 25%; 
+    font-family: "Poetsen One", sans-serif; 
+} 
+.right-nav{ 
+    height: 100%; 
+    width: 50%; 
+    min-width: fit-content; 
+} 
+.home-page-Top-backgroud{ 
+    display: flex; 
+    width: 100%; 
+    height: calc(100% - 80px); 
+} 
+.home-page-Top-backgroud video{ 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+} 
+ 
+/* hna tkmel lawla */ 
+.home-page-menu{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    height: 40%; 
+    min-height: fit-content; 
+} 
+.box-title{ 
+    width: 60%; 
+    height: 10%; 
+    min-height: fit-content; 
+} 
+.box-title h1{ 
+    padding: 0 30px; 
+    font-family: "Playwrite AU SA", cursive; 
+} 
+.box-menu{ 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    height: 90%; 
+    width: 60%; 
+    min-height: 400px; 
+} 
+ 
+.smallbox{ 
+    height: 45%; 
+    width: 45%; 
+    border-radius: 10px; 
+    margin-top: 5px; 
+} 
+.smallbox img{ 
+    height: 100%; 
+    width: 100%; 
+    border-radius: 10px; 
+} 
+.smallbox h3 { 
+    font-family:serif; 
+    font-size: 1.4rem; 
+    margin-top: -40px; 
+    text-align: center; 
+    color: #fff; 
+} 
+ 
+/* hna tkmel page2 nta3 menu  */ 
+.about-page{ 
+    height: 100vh; 
+    width: 100%; 
+} 
+.about{ 
+    height: 35%; 
+    width: 100%; 
+    padding: 4% 10%; 
+    min-height: fit-content; 
+} 
+.title{ 
+    font-size: 3rem; 
+    font-family: "Playwrite AU SA", cursive; 
+} 
+.para{ 
+    font-size: 1.5rem; 
+} 
+.order{ 
+    height: 65%; 
+    width: 100%; 
+    min-height: fit-content; 
+    padding: 3% 10%; 
+} 
+.order-box{ 
+    height: 100%; 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between; 
+} 
+.boox{ 
+    height: 100%; 
+    width: 23%; 
+} 
+.boox-top{ 
+    height: 70%; 
+    width: 100%; 
+} 
+.boox-top img{ 
+    height: 100%; 
+    width: 100%; 
+} 
+.boox-bottom{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-between; 
+    height: 30%; 
+    width: 100%; 
+    padding: 0 15px; 
+} 
+.boox-bottom p{ 
+    font-size: 1.4rem; 
+    font-family: "Winky Rough", sans-serif; 
+} 
+.boox-bottom button{ 
+    display: flex; 
+    justify-content: space-around; 
+    padding: 4px; 
+    background-color: rgb(7, 180, 7); 
+    color: #fff; 
+    font-weight: bold; 
+    border-radius: 7px; 
+    font-size: 1.3rem; 
+    width: 80%; 
+} 
+/* hna tkmal  */ 
+.contact-page{ 
+    height: 170vh; 
+    width: 100%; 
+} 
+header { 
+    background-color: #1c1c1a; 
+    color: white; 
+    padding: 40px 20px; 
+    text-align: center; 
+} 
+h1 { 
+    font-size: 2.5rem; 
+    margin-bottom: 10px; 
+} 
+p.subtitle { 
+    font-size: 1.2rem; 
+    opacity: 0.8;
+} 
+.container { 
+    max-width: 900px; 
+    margin: 40px auto; 
+    padding: 20px; 
+} 
+.info, .form-section,.social { 
+    margin-bottom: 40px; 
+} 
+.info div, .social a { 
+    margin-bottom: 10px; 
+} 
+strong{ 
+    font-size: 1.2rem; 
+} 
+.form-section input,textarea { 
+    width: 100%; 
+    padding: 12px; 
+    margin: 10px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 6px; 
+    font-family: inherit; 
+} 
+.form-section button { 
+    background-color: #1c1c1a; 
+    color: white; 
+    padding: 12px 24px; 
+    border: none; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    font-size: 1rem; 
+    transition: all 0.5s linear; 
+} 
+.form-section button:hover{ 
+    padding: 12px 30px 12px 40px; 
+    background-color: rgb(7, 180, 7); 
+    color: #fff; 
+    font-weight: bold; 
+} 
+iframe { 
+    width: 100%; 
+    height: 300px; 
+    border: none; 
+    border-radius: 8px; 
+} 
+.social h2{ 
+    padding: 0 50px; 
+} 
+.social a { 
+    color: #1c1c1a; 
+    text-decoration: none; 
+    margin-right: 15px; 
+    font-weight: bold;     
+} 
+.logo{ 
+    display: flex; 
+} 
+.logo a{ 
+    display: flex; 
+    align-items: center; 
+} 
+.logo img{ 
+    height: 40px; 
+} 
+.memphis { 
+  max-width: 400px; 
+  margin: 40px auto; 
+  padding: 25px; 
+  background-color: #f9f9f9; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  font-family: Arial, sans-serif; 
+} 
+ 
+.memphis h2 { 
+  text-align: center; 
+  color: #333; 
+  margin-bottom: 20px; 
+} 
+ 
+.memphis label { 
+  display: block; 
+  margin-bottom: 5px; 
+  color: #555; 
+  font-weight: bold; 
+} 
+ 
+.memphis input, 
+.memphis select { 
+  width: 100%; 
+  padding: 10px; 
+  margin-bottom: 15px; 
+  border-radius: 6px; 
+  border: 1px solid #ccc; 
+  box-sizing: border-box; 
+}
